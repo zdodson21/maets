@@ -8,4 +8,3 @@ function leaveClone() {
         window.location.href = "https://store.steampowered.com/about/"
     }
 }
-/* Make it so leaveClone() function will set a boolean to true, if boolean is true let the user leave */
