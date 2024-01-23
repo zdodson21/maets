@@ -1,6 +1,11 @@
-.home-page-link {
+.global-header {
     color: #C5C3C0; 
     text-decoration: none;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    padding: 45px 7px 7px 7px;
 }
 
 .not-main {
