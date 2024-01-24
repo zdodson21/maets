@@ -1,3 +1,8 @@
+#login {
+    display: flex;
+    justify-content: right;
+}
+
 .global-header {
     color: #C5C3C0; 
     text-decoration: none;
