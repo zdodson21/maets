@@ -18,3 +18,16 @@
 .not-main {
     background-color: #171D25;
 }
+
+#header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#install-steam-btn {
+    background-color: #5C7E10;
+    font-family: "Motiva Sans", Sans-serif;
+    border-radius: 0px;
+}
