@@ -1,3 +1,4 @@
+// Utilized Node.js tutorial video by Jinquan Zhang
 // test server using 'npx nodemon server.js'
 
 const express = require('express');
