@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Maets</title>
+    <title>Log In Page</title>
     <link rel="icon" href="./img/blue-logo.png">
 </head>
     <body></body>
-        <maets-header></maets-header>
-        <main>
+        <header>
             <h1>Test Text</h1>
+        </header>
+        <main>
+            <form action="">
+                <div class="form-div">
+                    <label for="username">Username:</label>
+                    <input type="text" class="log-in-form-object" id="username" name="username" placeholder="Username Here..."> <br>
+                </div>
+                <div class="form-div">
+                    <label for="password">Password:</label>
+                    <input type="text" class="log-in-form-object" id="password" name="password" placeholder="Password Here...">
+                </div>
+                <div class="form-div">
+                    <input type="submit" class="log-in-form-object" id="submit-btn" value="Log In">
+                </div>
+            </form>
         </main>
-        <footer>
-
-        </footer>
-
-        <!-- Scripts -->
-        <script type="module" src="./src/maets-header.js"></script>
     </body>
 </html>

@@ -2,7 +2,7 @@
   "name": "maets",
   "version": "1.0.0",
   "description": "A clone website of Steam for an ETI 461 project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:build": "web-dev-server --root-dir dist --app-index index.html --open",
@@ -11,10 +11,14 @@
   "author": "Zach Dodson",
   "license": "ISC",
   "dependencies": {
-    "lit": "^3.1.2"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mssql": "^10.0.2"
   },
   "devDependencies": {
     "@web/dev-server": "^0.4.3",
-    "http-server": "^14.1.1"
-  }
+    "http-server": "^14.1.1",
+    "nodemon": "^3.1.0"
+  },
+  "keywords": []
 }
